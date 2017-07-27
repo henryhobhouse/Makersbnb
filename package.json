@@ -1,7 +1,7 @@
 {
   "name": "makersbnb",
   "version": "1.0.0",
-  "description": "simple bnb app for Makers",
+  "description": "Simple BnB app for Makers group project",
   "main": "app.js",
   "dependencies": {
     "angular2-flash-messages": "*",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node app"
   },
   "repository": {

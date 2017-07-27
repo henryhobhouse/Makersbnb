@@ -35,7 +35,7 @@ describe('HomeComponent', () => {
 
   it('should render h1 title containing MAKERS BnB', async(() => {
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('MAKERS BnB');
+    expect(compiled.querySelector('h1').textContent).toContain('Makers BnB');
   }));
 
   it('should render paragraph ', async(() => {
